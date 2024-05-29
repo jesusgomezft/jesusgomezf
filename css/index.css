@@ -478,7 +478,7 @@ body{
 .about-second-line{
     opacity: .8;
     font-size: 18px;
-    font-weight: 200;
+    font-weight: 100;
     text-align: justify;
 }
 .about-main{
@@ -492,17 +492,17 @@ body{
     flex-direction: row;
 }
 .about-img img{
-    width: 100%;
-    height:380px;
-    padding: 30px;
+    width: 400%;
+    height:880px;
+    /* padding: 10px; */
     border-radius: 40px;
     
 }
 .about-img {
     width: 950px;
-    height:auto;
-    padding: 30px;
-    padding-top: 10px;
+    height:500px;
+    /* padding: 30px;
+    padding-top: 0px; */
     border-radius: 40px;
     object-fit: cover;
     
@@ -2317,7 +2317,7 @@ for tabs and large phones
      }
     .about-second-line{
         opacity: .8;
-        font-size: 28px;
+        font-size: 20px;
         font-weight: 200;
     }
     .cv a button{
@@ -2365,10 +2365,10 @@ for tabs and large phones
         transition: all .8s ease;
     }
     .service-description h2{
-        padding: 10px;
-        margin: 5px;
-        font-weight: 200;
-        font-size: 32px;
+        padding: 0px;
+        margin: 0px;
+        font-weight: 100;
+        font-size: 22px;
     }
     .service-description p{
         padding: 10px;
